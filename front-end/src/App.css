@@ -16,6 +16,18 @@
   margin: 0;
   background-color :skyblue;
 }
+.nav-right{
+  text-align: right;
+}
+.amazon-logo{
+  width: 75px;
+  float: left;
+  border-radius:50%;
+  margin-top: 3px;
+margin-left: 12px;
+
+
+}
 
 .footer{
   position: absolute;
@@ -24,23 +36,37 @@
   width: 100%;
   background-color: skyblue;
 }
-.register{
-  margin-left: 30%;
+.register {
+  max-width: 600px; /* Adjust the maximum width as per your design */
+  margin: 0 auto;
+  padding: 20px;
 }
-.registerButton{
-  display: block;
-  margin: 25px;
-  padding: 7px;
-  width: 308px;
-  border: 1px solid skyblue;
+
+.inputBox {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
-.inputBox{
-  display: block;
-  margin: 25px;
-  padding: 7px;
-  width: 300px;
-  border: 1px solid skyblue;
+
+.registerButton {
+  width: 100%;
+  padding: 10px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+  .inputBox {
+    margin-bottom: 10px;
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
