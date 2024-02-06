@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Signup.css'; // Import your custom stylesheet
+import './Signup.css'; // Import  custom stylesheet
 
 const Signup = () => {
   const [name, setName] = useState('');
